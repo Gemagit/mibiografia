@@ -1,0 +1,142 @@
+
+
+.contenedorprincipal {
+    margin: 1px 1px 1px 1px;
+    padding: 5px
+}
+
+
+.containermenu {
+    text-align: right;
+    flex-direction: column;
+    padding: 8px 8px 8px 8px;
+    cursor: pointer;
+    border-color: black;
+    display: flex;
+}
+
+
+.containerindex {
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+}
+
+
+.containeraboutme {
+    text-align: left;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #dededf;
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+}
+
+
+.containerportrait {
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+}
+
+.containerwedding {
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+}
+
+.containerpersonal {
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+}
+
+
+.containerfamily {
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+}
+
+
+ .containersinglecovers {
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+ }
+
+
+ .containeradvertising {
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+ }
+
+
+img {
+    object-fit: cover;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    margin: 1px 1px;
+}
+
+
+.form {
+    background-color: #dededf;
+    display: grid;
+    width: 70%;
+    margin:auto;
+    max-width: 400px;
+    border-radius: 1 em;
+    padding: 50px;
+}
+
+
+.form_container {
+    display: grid;
+    width: 100%;
+    gap:1em;
+    grid-auto-columns: 100%;
+}
+
+
+.form_imput {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 108px 16px;
+    outline: none;
+    border: none;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+
+.form_title {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 4em;
+}
+
+.form_cta {
+    font-family: inherit;
+}
+
+
+h1 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+p {
+    font-size: 30px;
+    align-items: center;
+}
+
+
+li, ul {
+    list-style: none;
+}
+
+
+
+/* Media queries*/
+
+@media only screen and (min-width: 480px) and (max-width: 700px) {
+
+  }
